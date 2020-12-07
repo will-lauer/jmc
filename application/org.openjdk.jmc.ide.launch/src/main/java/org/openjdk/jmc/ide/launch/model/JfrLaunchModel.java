@@ -284,7 +284,7 @@ public class JfrLaunchModel extends RecordingWizardModel {
 		if (listFiles == null) {
 			return Collections.emptyList();
 		}
-		return Arrays.asList();
+		return Arrays.asList(listFiles);
 	}
 
 	public void updateFromConfiguration(ILaunchConfiguration configuration)
