@@ -110,7 +110,7 @@ public class JfrLaunchModel extends RecordingWizardModel {
 	private boolean jreSupportsDumpOnExitWithoutDefaultRecording;
 
 	public JfrLaunchModel(boolean jfrEnabled, boolean autoOpen) {
-		super(new NullFlightRecorderService(JavaVersionSupport.JDK_7_U_4), ControlPanel.getDefaultRecordingFile("")); //$NON-NLS-1$
+		super(new NullFlightRecorderService(JavaVersionSupport.JDK_9), ControlPanel.getDefaultRecordingFile("")); //$NON-NLS-1$
 
 		setFixedRecording(!DEFAULT_CONTINUOUS);
 
